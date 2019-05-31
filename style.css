@@ -1,0 +1,361 @@
+body {
+    font-family: 'Calibri';
+    background-color: #f5f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.top {
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .topper {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.wrap {
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.page {
+	font-weight: 600;
+	text-decoration: none;
+}
+.panel {
+	width: 150px;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.postpage .post {
+    width: 600px;
+    margin: 25px auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #222;
+    background-color: white;
+}
+.postpage .title {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.postpage .content {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+.postpage .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.postpage .info a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+.postpage .image {
+    width: calc(100% + 36px);
+    margin: -18px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.postpage .info .button {
+    background: #3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.postpage .info .button:hover {
+    background-color: #2f82b9;
+}
+.sidebar {
+    width: 200px;
+    background-color: #e9e9e9;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 3px;
+}
+.sidebar .text_subscribe {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.form_sign {
+    width: 450px;
+    padding: 30px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+
+.form_sign input {
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.form_sign .submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+.form_sign a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.feedback label {
+    color: #fff;
+}
+
+.feedback span {
+    color: red;
+}
+
+.userpage {
+    width: 600px;
+}
+.userpage .block {
+    display: block;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.075);
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+}
+.userpage .block.link {
+    color: #3498db;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.userpage .block.link img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.userpage .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.userpage .profile .avatar {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.userpage .profile .name {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.userpage .profile .info {
+    margin-left: 40px;
+}
+
+.userpage .profile .email {
+    font-size: 18px;
+}
+.userpage .profile .date {
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.userpage .profile a {
+	margin-left: 250px;
+	background-color: #2ecc71;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.userpage .wall form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.userpage .wall form textarea {
+    resize: vertical;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.userpage .wall form button {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.userpage .wall .post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.userpage .wall .post:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.userpage .wall .post .head {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.userpage .wall .post .avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.userpage .wall .post .name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3498db;
+    cursor: pointer;
+}
+
+.userpage .wall .post .date {
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.userpage .wall .post .message {
+    margin-top: 10px;
+}
+
+.userpage .wall .empty {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.useredit {
+	background-color: #fff;
+	width: 300px;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+}
+
+.useredit div {
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.useredit input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.useredit input {
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.1);
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+	appearance: none;
+	font-size: 20px;
+}
+
+.useredit button {
+	background-color: #2ecc71;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	color: white;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
