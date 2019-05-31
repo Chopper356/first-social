@@ -22,6 +22,8 @@
 	<div>Редактировать день рождения</div>
 	<input type="date" name="birthday" value="<?=$user['birthday'];?>">
 	<button>Подтвердить</button>
-	<?=$result;?>
+	<? if ($result): ?>
+		<p><?=$result;?></p>
+	<? endif; ?>
 </form>
 

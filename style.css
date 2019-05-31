@@ -359,3 +359,12 @@ input, textarea, select, button {
 	margin-top: 10px;
 	padding: 10px;
 }
+
+.useredit p {
+    font-size: 12px;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 10px;
+}
